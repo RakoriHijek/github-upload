@@ -8,3 +8,7 @@ git push -u origin main
 git fetch origin
 git checkout -b RakoriHijek-patch-1 origin/RakoriHijek-patch-1
 git merge main
+
+git checkout main
+git merge --no-ff RakoriHijek-patch-1
+git push origin main
