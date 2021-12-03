@@ -4,3 +4,7 @@ git remote add origin https://github.com/RakoriHijek/github-upload.git
 git add .
 git commit -m "initializing repository"
 git push -u origin main
+
+git fetch origin
+git checkout -b RakoriHijek-patch-1 origin/RakoriHijek-patch-1
+git merge main
